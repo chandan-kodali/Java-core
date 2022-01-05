@@ -20,6 +20,10 @@ public class PalendromeNumberString {
 		
 				
 		String s = "chandan";
+		char[] c = s.toCharArray();
+		for(int i=c.length-1;i>=0;i--) {
+			System.out.print(c[i]);
+		}
 		System.out.println("reverse string :"+new StringBuilder(s).reverse());
 		
 	}
